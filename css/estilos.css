@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Yanone+Kaffeesatz');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Yanone Kaffeesatz';
+    width: 100%;
+}
+
+img{
+    width: 100%;
+}
+
+.active{
+    background-color: #FBA919;
+    color: white;
+}
+
+.banner{
+    position: relative;
+    z-index: 9;
+}
+
+.banner_mensaje{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%) translateY(-50%);
+    color: white;
+    text-align: center;
+}
+
+.info_columna{
+    background-color: #FBA919;
+    padding: 25px;
+    margin-top: 10px;
+    color: white;
+}
+
+.cursos_titulo{
+    text-align: center;
+}
+
+.cursos_descripcion{
+    position: absolute;
+    top: 0;
+    left: 15px;
+    color: #FFFFFF;
+    background: rgba(0,0,0,0.5);
+    width: 60%;
+    height: 100%;
+    padding-left: 25px;
+    overflow: hidden;
+}
+
+.cursos{
+    margin-top: 20px;
+}
+
+.cursos_columna{
+    margin-top: 15px;
+}
+
+footer{
+    background: #333;
+    color: #FFFFFF;
+    height: 90px;
+    padding: 10px;
+    text-align: center;
+}
+
+.social [class^="icon-"]{
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+    background: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 40px;
+}
+
+.carousel-control-next, .carousel-control-prev{
+    z-index: 10;
+}
